@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <h2 className="text-muted">Five Days Weather Forecast</h2>
         <SearchBar/>
         <WeatherList/>
       </div>
